@@ -15,7 +15,7 @@
 </script>
 
 <script lang="ts">
-	import VGDD from '$lib/vgdd/index.svelte';
+	import VGDD from '$lib/VGDD.svelte';
 </script>
 
 <svelte:head>
@@ -30,6 +30,6 @@
 	.content {
 		width: 100%;
 		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
+		margin: 0 auto 0 auto;
 	}
 </style>
